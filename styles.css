@@ -1,0 +1,223 @@
+/* Custom text styling */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+
+.lightTitle {
+  font-weight: 1000;
+  color: transparent;
+  font-size: 60px;
+  background: url("./images/giphy.gif") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8186a3;
+}
+
+.darkTitle {
+    font-weight: 1000;
+    color: transparent;
+    font-size: 60px;
+    background: url("./images/giphy.gif") repeat;
+    background-position: 40% 50%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #263859;
+}
+
+.fa {
+    font-size:48px;
+    color:#ff6768
+}
+
+.fa:hover {
+    color:#17223b;
+}
+
+/* Custom layout styling */
+
+.main-wrapper {
+    height: 100vh;
+}
+
+#home, #contact {
+    background-image: url("./images/trianglify.png");
+    background-repeat: repeat;
+}
+
+#about {
+    background-color: #263859;
+    color: #8186a3;
+}
+
+#projects {
+    background-color: #8186a3;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-gray {
+    color: #8186a3;
+}
+
+.text-offwhite {
+    color: #9CA1B9;
+}
+
+.row {
+    padding: 10px;
+}
+
+/* Custom image styles */
+
+.circular {
+    border-radius: 50%;
+}
+
+/* Custom card styles */
+
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: .5rem;
+}
+
+.card-group .card-primary:hover {
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+    z-index: 100;
+}
+  
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 5;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 5px 0 black, 0 0 0 1px black;
+    margin-top:20px;
+}
+
+.dark-bg {
+    background-color: #17223b;
+}
+
+textarea:not(:placeholder-shown) {
+    background-color:  #17223b!important;
+    color:white!important;
+}
+ 
+textarea:placeholder-shown {
+    background-color:  #17223b!important;
+    color:white!important;
+}
+
+input:not(:placeholder-shown) {
+    background-color:  #17223b!important;
+    color:white!important;
+}
+ 
+input:placeholder-shown {
+    background-color:  #17223b!important;
+    color:white!important;
+}
+
+
+
+/* Custom Carousel Styles */
+
+.carousel-inner > .carousel-item > img { 
+    margin: 0 auto; 
+    width: 100%;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Custom Navbar */
+
+.navbar-custom {
+    background-color: #ff6768;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+/* Custom button & badge styling */
+
+.btn-primary, .btn-primary:visited {
+    background-color: #ff6768;
+    color: #17223b;
+}
+
+.btn-primary:hover, .btn-primary:active {
+    background-color: #FF8E8E;
+    color: #17223b;
+}
+
+.btn, .btn:hover, .btn:active, .btn:visited {
+    border-color: transparent;
+}
+
+.badge-success {
+    background-color: #ff6768;
+    color: #17223b 
+}
+
+.badge-light {
+    background-color: #6b778d;
+    color: #17223b;
+}
