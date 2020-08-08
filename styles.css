@@ -83,12 +83,6 @@ body {
 
 /* Custom card styles */
 
-.card-deck {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: .5rem;
-}
-
 .card-group .card-primary:hover {
     box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
     z-index: 100;
@@ -118,27 +112,16 @@ body {
     background-color: #17223b;
 }
 
-textarea:not(:placeholder-shown) {
-    background-color:  #17223b!important;
-    color:white!important;
-}
- 
-textarea:placeholder-shown {
-    background-color:  #17223b!important;
-    color:white!important;
+.card-footer {
+    background-color: #263859;
 }
 
-input:not(:placeholder-shown) {
-    background-color:  #17223b!important;
-    color:white!important;
+textarea:not(:placeholder-shown), textarea:placeholder-shown, input:not(:placeholder-shown), input:placeholder-shown {
+    background-color:  #263859 !important;
+    color:#9CA1B9 !important;
+    outline: none !important;
+    border-color: transparent !important;
 }
- 
-input:placeholder-shown {
-    background-color:  #17223b!important;
-    color:white!important;
-}
-
-
 
 /* Custom Carousel Styles */
 
